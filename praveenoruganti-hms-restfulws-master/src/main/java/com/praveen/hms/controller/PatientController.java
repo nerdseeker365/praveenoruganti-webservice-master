@@ -19,9 +19,6 @@ public class PatientController {
 
 	@Autowired
 	private PatientService patientService;
-
-//============================================
-	//Post Details
 	
 	@PostMapping
 	public void patientInfo(@RequestBody Patient patient) {
@@ -33,8 +30,6 @@ public class PatientController {
 	public void allPatientInfo(@RequestBody List<Patient> patients) {
 		patientService.allPatientInfo(patients);
 	}
-//=======================================================
-	//Get Details
 	
 	@GetMapping("/byMedicine/{name}")
 	public List<Object[]> getPatientByMedicineName(@PathVariable("name") String medicineName) {
