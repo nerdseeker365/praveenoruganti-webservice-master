@@ -22,8 +22,7 @@ public class AppointmentController {
 	@Autowired
 	private AppointmentService appointmentService;
 	
-	//======================================================================
-		//Save details
+	
 	
 	@PostMapping
 	public void saveAppointment(@RequestBody Appointment appointment) {
@@ -34,8 +33,7 @@ public class AppointmentController {
 	public void saveAllAppointment(@RequestBody List<Appointment> appointments) {
 		appointmentService.saveAllAppointment(appointments);
 	}
-	//===================================================================
-		//Get data details
+	
 	
 	@GetMapping("/byDate/{date}")
 	public List<Object[]> getAppointAndPatientByDate(@PathVariable("date")
