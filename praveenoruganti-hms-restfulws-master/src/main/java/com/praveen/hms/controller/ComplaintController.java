@@ -19,8 +19,7 @@ public class ComplaintController {
 
 	@Autowired
 	private ComplaintService complaintService;	
-//=======================================================================
-		//Save Details	
+
 
 	@PostMapping
 	public void saveComplaint(@RequestBody Complaint complaint) {
@@ -30,9 +29,7 @@ public class ComplaintController {
 	@PostMapping("/all")
 	public void saveAllComplaint(@RequestBody List<Complaint> complaints) {
 		complaintService.saveAllComplaint(complaints);
-	}
-//=============================================================================
-		//Get Data details	
+	}	
 	
 	@GetMapping("/byDisease/{name}")
 	public List<String> getPatientByDiseaseName(@PathVariable("name") String diseaseName) {
