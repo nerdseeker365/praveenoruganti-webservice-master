@@ -19,8 +19,6 @@ public class VisitingController {
 
 	@Autowired
 	private VisitingService visitingService;
-//=========================================================	
-	//Save details
 	
 	@PostMapping
 	public void saveVisiting(@RequestBody Visiting visiting) {
@@ -31,8 +29,6 @@ public class VisitingController {
 	public void saveAllVisiting(@RequestBody List<Visiting> visitings) {
 		visitingService.saveAllVisiting(visitings);
 	}
-//===========================================================
-	//Get data details
 
 	@GetMapping("/byDoctorname/{name}")
 	public List<String> getPatientByDoctorName(@PathVariable("name") String doctorName) {
