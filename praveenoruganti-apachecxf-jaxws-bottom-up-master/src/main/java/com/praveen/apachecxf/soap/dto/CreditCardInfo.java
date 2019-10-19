@@ -1,4 +1,4 @@
-package com.praveen.apachecx.soap.dto;
+package com.praveen.apachecxf.soap.dto;
 
 import java.util.Date;
 

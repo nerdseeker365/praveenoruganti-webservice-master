@@ -1,4 +1,4 @@
-package com.praveen.apachecx.soap.service;
+package com.praveen.apachecxf.soap.service;
 
 import javax.jws.WebService;
 

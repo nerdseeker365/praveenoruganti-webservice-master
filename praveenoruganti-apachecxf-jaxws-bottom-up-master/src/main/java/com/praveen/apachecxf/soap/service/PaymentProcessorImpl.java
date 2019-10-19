@@ -1,7 +1,7 @@
-package com.praveen.apachecx.soap.service;
+package com.praveen.apachecxf.soap.service;
 
-import com.praveen.apachecx.soap.dto.PaymentProcessorRequest;
-import com.praveen.apachecx.soap.dto.PaymentProcessorResponse;
+import com.praveen.apachecxf.soap.dto.PaymentProcessorRequest;
+import com.praveen.apachecxf.soap.dto.PaymentProcessorResponse;
 
 public class PaymentProcessorImpl implements PaymentProcessor {
 

@@ -9,12 +9,12 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
 	<jaxws:endpoint id="bookservice"
-		implementor="com.praveen.apachecx.soap.service.BookServiceImpl"
+		implementor="com.praveen.apachecxf.soap.service.BookServiceImpl"
 		address="/book">
 	</jaxws:endpoint>
 	
 	<jaxws:endpoint id="paymentService"
-		implementor="com.praveen.apachecx.soap.service.PaymentProcessorImpl"
+		implementor="com.praveen.apachecxf.soap.service.PaymentProcessorImpl"
 		address="/paymentProcessor">
 	</jaxws:endpoint>
 
