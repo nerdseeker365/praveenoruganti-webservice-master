@@ -1,7 +1,0 @@
-com\praveen\apachecxf\soap\service\BookServiceImpl.class
-com\praveen\apachecxf\soap\service\IBookService.class
-com\praveen\apachecxf\soap\dto\PaymentProcessorResponse.class
-com\praveen\apachecxf\soap\service\PaymentProcessor.class
-com\praveen\apachecxf\soap\dto\PaymentProcessorRequest.class
-com\praveen\apachecxf\soap\dto\CreditCardInfo.class
-com\praveen\apachecxf\soap\service\PaymentProcessorImpl.class
