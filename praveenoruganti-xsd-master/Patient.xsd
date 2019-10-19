@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-	targetNamespace="https://praveenoruganti.blogspot.com/Patient"
-	xmlns:tns="https://praveenoruganti.blogspot.com/Patient"
+	targetNamespace="http://praveenoruganti.blogspot.com/Patient"
+	xmlns:tns="http://praveenoruganti.blogspot.com/Patient"
 	elementFormDefault="qualified">
 	<element name="Patient" type="tns:Patient" />
 	<complexType name="Patient">

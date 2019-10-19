@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tns:Patient
-	xmlns:tns="https://praveenoruganti.blogspot.com/Patient"
+	xmlns:tns="http://praveenoruganti.blogspot.com/Patient"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="https://praveenoruganti.blogspot.com/Patient Patient.xsd "
+	xsi:schemaLocation="http://praveenoruganti.blogspot.com/Patient Patient.xsd "
 	id="1">
 	<tns:Name>PraveenOruganti</tns:Name>
 	<tns:Age>34</tns:Age>
