@@ -11,11 +11,35 @@
 	<jaxws:endpoint id="bookservice"
 		implementor="com.praveen.apachecxf.soap.service.BookServiceImpl"
 		address="/book">
+		<jaxws:inInterceptors>
+			<bean class="org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor">
+				<constructor-arg>
+					<map>
+						<entry key="action" value="UsernameToken" />
+						<entry key="passwordType" value="PasswordText" />
+						<entry key="passwordCallbackRef" value-ref="myPasswordCallback" />
+					</map>
+				</constructor-arg>
+			</bean>
+		</jaxws:inInterceptors>
 	</jaxws:endpoint>
 	
 	<jaxws:endpoint id="paymentService"
 		implementor="com.praveen.apachecxf.soap.service.PaymentProcessorImpl"
 		address="/paymentProcessor">
+		<jaxws:inInterceptors>
+			<bean class="org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor">
+				<constructor-arg>
+					<map>
+						<entry key="action" value="UsernameToken" />
+						<entry key="passwordType" value="PasswordText" />
+						<entry key="passwordCallbackRef" value-ref="myPasswordCallback" />
+					</map>
+				</constructor-arg>
+			</bean>
+		</jaxws:inInterceptors>
 	</jaxws:endpoint>
+	
+	<bean id="myPasswordCallback" class="com.praveen.apachecxf.soap.security.UTPasswordCallback" />
 
 </beans>

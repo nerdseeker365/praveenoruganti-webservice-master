@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://service.soap.apachecxf.praveen.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="BookService" targetNamespace="http://service.soap.apachecxf.praveen.com/">
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://service.soap.apachecxf.praveen.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="BookService" targetNamespace="http://service.soap.apachecxf.praveen.com/">
   <wsdl:types>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://service.soap.apachecxf.praveen.com/" elementFormDefault="unqualified" targetNamespace="http://service.soap.apachecxf.praveen.com/" version="1.0">
 
@@ -52,5 +53,5 @@
     <wsdl:port binding="tns:BookServiceSoapBinding" name="BookServiceImplPort">
       <soap:address location="http://localhost:8080/praveenoruganti-apachecxf-jaxws-bottom-up/services/book"/>
     </wsdl:port>
-  </wsdl:service>
+  </wsdl:service>     
 </wsdl:definitions>

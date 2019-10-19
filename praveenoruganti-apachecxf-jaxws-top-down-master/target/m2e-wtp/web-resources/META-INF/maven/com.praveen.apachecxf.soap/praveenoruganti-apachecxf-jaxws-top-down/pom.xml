@@ -1,13 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.praveen.apachecxf.soap</groupId>
-  <artifactId>praveenoruganti-apachecxf-jaxws-top-down</artifactId>
-  <version>1.0</version>
-  <packaging>war</packaging>
-  <name>praveenoruganti-apachecxf-jaxws-top-down</name>
-  <description>Praveen Oruganti Apache CXF JAX-WS : Bottom up approach for developing SOAP based web service</description>
-  <build>
- 	<sourceDirectory>src</sourceDirectory>		
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.praveen.apachecxf.soap</groupId>
+	<artifactId>praveenoruganti-apachecxf-jaxws-top-down</artifactId>
+	<version>1.0</version>
+	<packaging>war</packaging>
+	<name>praveenoruganti-apachecxf-jaxws-top-down</name>
+	<description>Praveen Oruganti Apache CXF JAX-WS : Bottom up approach for developing SOAP based web service</description>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -49,7 +51,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 	<dependencies>
 		<!-- apache cxf jax-ws 3.0.2 -->
 		<dependency>
@@ -65,6 +67,13 @@
 			<scope>compile</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-ws-security</artifactId>
+			<version>3.0.2</version>
+			<scope>compile</scope>
+		</dependency>
+
 		<!-- spring framework 4.1.0 -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -73,7 +82,7 @@
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
-	
-	
-	
+
+
+
 </project>
