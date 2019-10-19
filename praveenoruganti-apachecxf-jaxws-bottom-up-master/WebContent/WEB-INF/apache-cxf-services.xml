@@ -13,7 +13,6 @@
 		address="/book">
 	</jaxws:endpoint>
 	
-	
 	<jaxws:endpoint id="paymentService"
 		implementor="com.praveen.apachecx.soap.service.PaymentProcessorImpl"
 		address="/paymentProcessor">

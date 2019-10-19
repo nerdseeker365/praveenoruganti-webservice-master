@@ -4,8 +4,8 @@ import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
 
-import com.praveen.apachecx.soap.service.dto.PaymentProcessorRequest;
-import com.praveen.apachecx.soap.service.dto.PaymentProcessorResponse;
+import com.praveen.apachecx.soap.dto.PaymentProcessorRequest;
+import com.praveen.apachecx.soap.dto.PaymentProcessorResponse;
 
 @WebService(serviceName = "PaymentProcessor")
 public interface PaymentProcessor {

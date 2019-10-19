@@ -1,4 +1,4 @@
-package com.praveen.apachecx.soap.service.dto;
+package com.praveen.apachecx.soap.dto;
 
 import javax.xml.bind.annotation.XmlType;
 
