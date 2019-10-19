@@ -2,7 +2,7 @@ package com.praveen.apachecxf.soap.service;
 
 import javax.jws.WebService;
 
-@WebService(serviceName="BookService", endpointInterface="com.praveen.apachecx.soap.service.IBookService")
+@WebService(serviceName="BookService", endpointInterface="com.praveen.apachecxf.soap.service.IBookService")
 public class BookServiceImpl implements IBookService {
  
     public String getBookNameBasedOnISBN(String isbnNumber) {
