@@ -3,7 +3,7 @@ package com.praveen.soap.client;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 
-public class RestClient {
+public class JerseyRestClient {
 
 	public static void main(String[] args) {
 		Client client = ClientBuilder.newClient();
