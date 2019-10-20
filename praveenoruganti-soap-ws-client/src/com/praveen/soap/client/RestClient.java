@@ -1,9 +1,9 @@
-package com.praveen.jersey.rest.client;
+package com.praveen.soap.client;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 
-public class MyClient {
+public class RestClient {
 
 	public static void main(String[] args) {
 		Client client = ClientBuilder.newClient();
